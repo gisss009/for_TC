@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 
 class Program
 {
@@ -12,7 +13,7 @@ class Program
             Console.WriteLine("n должно быть больше 2.");
             return;
         }
-
+        this is not working
         Console.WriteLine("Введите целые числа a, b и c:");
         Console.Write("a: ");
         int a = int.Parse(Console.ReadLine());
